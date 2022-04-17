@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 没有焦点时的背景颜色 -->
+    <!--<item android:drawable="@color/unfocused" android:state_window_focused="false"/>-->
+    <!-- 非触摸模式下获得焦点并单击时的背景颜色 -->
+    <!--<item android:drawable="@color/pressed" android:state_focused="true" android:state_pressed="true"/>-->
+    <!-- 触摸模式下单击时的背景颜色 -->
+    <!--<item android:drawable="@color/pressed" android:state_focused="false" android:state_pressed="true"/>-->
+
+    <!-- 長按時的背景颜色 -->
+
+    <!-- 一般狀態的背景颜色 -->
+
+    <!-- 获得焦点时的背景  颜色 -->
+    <!--<item android:drawable="@color/pressed" android:state_focused="true"/>-->
+
+    <item android:drawable="@color/bisque" android:state_activated="true" />
+    <item android:drawable="@color/snow" />
+</selector>

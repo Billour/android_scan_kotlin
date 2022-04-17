@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="packing_scan_firstuse_s_sitelist">
+            <item>台北厂(NJ)</item>
+            <item>云科厂(RP)</item>
+    <item>南俊商贸(SZ)</item>
+        </string-array>
+    <string name="CN_b_btn">简体中文</string>
+    <string name="TW_b_btn">繁体中文</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <string name="action_setting">结束</string>
+    <string name="app_name">打包区扫瞄</string>
+    <string name="auto_flashlight">自动补光</string>
+    <string name="cancle_b_btn">取消</string>
+    <string name="check_B_btn">确认</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"启用"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必须先启用 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"启用 Google Play 服务"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"安装"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"您的设备没有安装 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"获取 Google Play 服务"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play 服务的适用范围"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play服务出错"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>无法访问 Google Play 服务，请重试。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"您的设备不支持 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"您必须先更新 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"更新 Google Play 服务"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Google Play 服务当前正在更新，因此您无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"必须使用新版 Google Play 服务。该服务很快就会自行更新。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"在手机上打开"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"登录"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"使用 Google 帐号登录"</string>
+    <string name="lang_b_btn">语言调整</string>
+    <string name="large_b_btn">大</string>
+    <string name="m_list">扫描资料</string>
+    <string name="menu_logdel_b_btn">清除log資料</string>
+    <string name="menu_m_list">选单列</string>
+    <string name="menu_sql_b_btn">SQL查詢</string>
+    <string name="menu_t_title">工程模式選單</string>
+    <string name="menu_table_b_btn">選擇資料表查詢</string>
+    <string name="middle_b_btn">中</string>
+    <string name="ok_b_btn">确认</string>
+    <string name="packing_scan_firstuse_b_download">下载</string>
+    <string name="packing_scan_firstuse_t_msg"/>
+    <string name="packing_scan_firstuse_t_title">打包区扫瞄系统</string>
+    <string name="packing_scan_main_b_check">确认</string>
+    <string name="packing_scan_main_b_listshow">列表清单</string>
+    <string name="packing_scan_main_b_scan">扫描</string>
+    <string name="packing_scan_main_b_scanrepeat">连续</string>
+    <string name="packing_scan_main_b_update">上传</string>
+    <string name="packing_scan_main_b_writecancel">取消</string>
+    <string name="packing_scan_main_b_writedelete">刪除</string>
+    <string name="packing_scan_main_e_write"/>
+    <string name="packing_scan_main_t_checkapk">正在检查app是否有新版本…</string>
+    <string name="packing_scan_main_t_date"/>
+    <string name="packing_scan_main_t_scan">扫描日期：</string>
+    <string name="packing_scan_main_t_site">扫描厂别：</string>
+    <string name="packing_scan_main_t_sl">SL</string>
+    <string name="release_notes_b_btn">更新说明</string>
+    <string name="repon_list_delcheck_t_msg">確定要刪除LOG資料嗎?</string>
+    <string name="repon_list_delcheck_t_title">LOG資料刪除確認視窗</string>
+    <string name="repon_list_item_t_data">資料</string>
+    <string name="repon_list_login_b_login">登入</string>
+    <string name="repon_list_login_e_account"/>
+    <string name="repon_list_login_e_password"/>
+    <string name="repon_list_login_t_account">帳號：</string>
+    <string name="repon_list_login_t_password">密碼：</string>
+    <string name="repon_list_login_t_title">工程模式登入視窗</string>
+    <string name="repon_list_quit_b_cancel">取消</string>
+    <string name="repon_list_quit_b_yes">確定</string>
+    <string name="repon_list_quit_t_msg">確定要離開工程模式嗎?</string>
+    <string name="repon_list_quit_t_title">工程模式確認視窗</string>
+    <string name="repon_list_t_copyright">Copyright © 2018 by 南俊資訊部</string>
+    <string name="repon_list_t_gettoday"/>
+    <string name="repon_list_t_loginmsg">您需要輸入帳號密碼才能開啟『工程模式』</string>
+    <string name="repon_list_t_msg">資料載入中，請稍後...</string>
+    <string name="repon_list_t_sql_order">order by：</string>
+    <string name="repon_list_t_sql_where">where：</string>
+    <string name="repon_list_t_sqltitle">※SQLite語法及查詢結果</string>
+    <string name="repon_list_t_title">工程模式</string>
+    <string name="repon_list_t_title2">工程模式-資料表查詢</string>
+    <string name="repon_list_t_today">今天日期：</string>
+    <string msgid="368094699078615544" name="s1">"保存图片"</string>
+    <string msgid="4550830452390689489" name="s2">"允许广告将图片存储在图库中吗？"</string>
+    <string msgid="2435407834265420668" name="s3">"接受"</string>
+    <string msgid="9167523597401839819" name="s4">"拒绝"</string>
+    <string msgid="1566682516266724847" name="s5">"创建日历活动"</string>
+    <string msgid="5996672174517137271" name="s6">"允许广告创建日历活动吗？"</string>
+    <string msgid="7163549807207034258" name="s7">"测试广告"</string>
+    <string name="scan_b_btn">一般扫描模式</string>
+    <string name="scanrepeat_b_btn">连续扫描模式</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
+    <string name="small_b_btn">小</string>
+    <string name="sql_b_query">查詢</string>
+    <string name="sql_b_support">說明</string>
+    <string name="sql_e_write">請輸入WHERE以後的語法</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_t_detail">※LOG資料欄位說明：</string>
+    <string name="table_b_check">確定</string>
+    <string name="table_t_dbname">※請選擇要查詢的資料庫：</string>
+    <string name="table_t_dbtable">※請選擇要查詢的資料表：</string>
+    <string name="table_t_sql_order">※請輸入order條件：</string>
+    <string name="table_t_sql_where">※請輸入where條件：</string>
+    <string name="text_T_message2">确定要更新app请点选“更新”按钮，要下次再更新请按“取消”。 </string>
+    <string name="text_T_message2_add">※注意：更新前请确认资料皆已上传再进行更新！ </string>
+    <string name="text_T_title2">打包区扫描系统更新视窗</string>
+    <string name="text_b_btn">字体调整</string>
+    <string name="text_t_message">请选取字体大小，预设为-大。点选确定后即套用新的设定。 </string>
+    <string name="text_t_message3">更新内容如下：</string>
+    <string name="text_t_set">字体设定：</string>
+    <string name="text_t_title">打包区扫描系统字体调整视窗</string>
+    <string name="text_t_title3">打包区扫描系统选单视窗</string>
+    <string name="text_t_title4">打包区扫扫描系统语言调整视窗</string>
+    <string name="text_t_title5">打包区扫描系统更新说明</string>
+    <string name="turn_off_flashlight">关闭闪光灯</string>
+    <string name="turn_on_flashlight">开启闪光灯</string>
+    <string name="updateall_b_btn">重新上传资料</string>
+    <string name="updateapkbtn_b_btn">更新</string>
+    <string name="write_b_btn">手动输入模式</string>
+    <string name="write_delete_cancle_b_btn">取消</string>
+    <string name="write_delete_check_b_btn">确定</string>
+    <string name="write_delete_t_message">确定要删除此笔资料请点选“确定”按钮，要取消则按“取消”按钮。</string>
+    <string name="write_delete_t_title">手动输入资料删除确认视窗</string>
+    <string name="zxing_app_name">条码扫描器</string>
+    <string name="zxing_button_ok">确定</string>
+    <string name="zxing_msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="zxing_msg_default_status">请将条码置于取景框内扫描。  </string>
+</resources>

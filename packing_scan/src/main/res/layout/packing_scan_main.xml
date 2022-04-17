@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mintcream"
+    tools:context=".packing_scan_main">
+
+    <RelativeLayout
+        android:id="@+id/packing_scan_main_R_rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/packing_scan_main_T_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/packing_scan_main_t_site"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/packing_scan_main_S_site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/packing_scan_main_T_site"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/packing_scan_main_T_site"
+            android:layout_toRightOf="@+id/packing_scan_main_T_site"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/packing_scan_main_t_date"
+            android:textColor="@color/blue"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/packing_scan_main_T_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/packing_scan_main_T_site"
+            android:layout_alignStart="@+id/packing_scan_main_T_site"
+            android:layout_below="@+id/packing_scan_main_T_site"
+            android:layout_marginTop="10dp"
+            android:text="@string/packing_scan_main_t_scan"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/packing_scan_main_T_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/packing_scan_main_T_scan"
+            android:layout_alignBottom="@+id/packing_scan_main_T_scan"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/packing_scan_main_T_scan"
+            android:layout_toRightOf="@+id/packing_scan_main_T_scan"
+            android:ems="10"
+            android:gravity="start"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:text="@string/packing_scan_main_t_date"
+            android:textAlignment="textStart"
+            android:textColor="@color/blue"
+            android:textSize="30sp" />
+
+        <!-- 工業用手機須使用的edittext
+        <EditText
+            android:id="@+id/packing_scan_main_E_scannum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/packing_scan_main_T_scan"
+            android:layout_below="@+id/packing_scan_main_T_scan"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:visibility="gone" />
+        -->
+
+        <Button
+            android:id="@+id/packing_scan_main_B_scan"
+            style="@android:style/Widget.DeviceDefault.Button.Inset"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/packing_scan_main_T_date"
+            android:layout_alignRight="@+id/packing_scan_main_T_date"
+            android:layout_below="@+id/packing_scan_main_T_date"
+            android:layout_marginTop="10dp"
+            android:background="@color/indianred"
+            android:onClick="scan"
+            android:text="@string/packing_scan_main_b_scan"
+            android:textColor="@color/aliceblue"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/packing_scan_main_B_scanrepeat"
+            style="@android:style/Widget.DeviceDefault.Button.Inset"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/packing_scan_main_T_date"
+            android:layout_alignRight="@+id/packing_scan_main_T_date"
+            android:layout_below="@+id/packing_scan_main_T_date"
+            android:layout_marginTop="10dp"
+            android:background="@color/indianred"
+            android:onClick="scan"
+            android:text="@string/packing_scan_main_b_scanrepeat"
+            android:textColor="@color/aliceblue"
+            android:textSize="50sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/packing_scan_main_B_update"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/packing_scan_main_T_scan"
+            android:layout_alignStart="@+id/packing_scan_main_T_scan"
+            android:layout_below="@+id/packing_scan_main_T_scan"
+            android:layout_marginTop="10dp"
+            android:background="@color/green"
+            android:onClick="updatedata"
+            android:text="@string/packing_scan_main_b_update"
+            android:textColor="@color/aliceblue"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/packing_scan_main_B_listshow"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/packing_scan_main_B_update"
+            android:layout_alignStart="@+id/packing_scan_main_B_update"
+            android:layout_below="@+id/packing_scan_main_B_update"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/gold"
+            android:onClick="scanlist"
+            android:text="@string/packing_scan_main_b_listshow"
+            android:textColor="@color/darkmagenta"
+            android:textSize="50sp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/packing_scan_main_T_sl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/packing_scan_main_B_update"
+            android:layout_alignStart="@+id/packing_scan_main_B_update"
+            android:layout_below="@+id/packing_scan_main_B_update"
+            android:layout_marginTop="20dp"
+            android:background="@color/cornsilk"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/packing_scan_main_t_sl"
+            android:textColor="@color/darkmagenta"
+            android:textSize="50sp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/packing_scan_main_E_write"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/packing_scan_main_T_sl"
+            android:layout_alignBottom="@+id/packing_scan_main_T_sl"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/packing_scan_main_T_sl"
+            android:layout_toRightOf="@+id/packing_scan_main_T_sl"
+            android:background="@color/cornsilk"
+            android:inputType="number"
+            android:maxLength="8"
+            android:numeric="integer"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:phoneNumber="false"
+            android:text="@string/packing_scan_main_e_write"
+            android:textColor="@color/darkmagenta"
+            android:textSize="50sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/packing_scan_main_B_check"
+            style="@android:style/Widget.DeviceDefault.Button.Inset"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/packing_scan_main_T_date"
+            android:layout_alignRight="@+id/packing_scan_main_T_date"
+            android:layout_below="@+id/packing_scan_main_T_date"
+            android:layout_marginTop="10dp"
+            android:background="@color/indianred"
+            android:onClick="writecheckbtn"
+            android:text="@string/packing_scan_main_b_check"
+            android:textColor="@color/aliceblue"
+            android:textSize="50sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/packing_scan_main_B_writedelete"
+            style="@android:style/Widget.DeviceDefault.Button.Inset"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/packing_scan_main_T_date"
+            android:layout_alignRight="@+id/packing_scan_main_T_date"
+            android:layout_below="@+id/packing_scan_main_T_date"
+            android:layout_marginTop="10dp"
+            android:background="@color/mediumvioletred"
+            android:onClick="writedeletebtn"
+            android:text="@string/packing_scan_main_b_writedelete"
+            android:textColor="@color/aliceblue"
+            android:textSize="50sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/packing_scan_main_B_writecancel"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/packing_scan_main_T_scan"
+            android:layout_alignStart="@+id/packing_scan_main_T_scan"
+            android:layout_below="@+id/packing_scan_main_T_scan"
+            android:layout_marginTop="10dp"
+            android:background="@color/green"
+            android:onClick="writecancel"
+            android:text="@string/packing_scan_main_b_writecancel"
+            android:textColor="@color/aliceblue"
+            android:textSize="50sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/packing_scan_main_T_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/packing_scan_main_T_sl"
+            android:layout_alignStart="@+id/packing_scan_main_B_listshow"
+            android:layout_below="@+id/packing_scan_main_T_sl"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/paleturquoise"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:text="正在載入資料訊息..."
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <ListView
+            android:id="@+id/packing_scan_main_L_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/packing_scan_main_T_num"
+            android:layout_alignStart="@+id/packing_scan_main_T_num"
+            android:layout_below="@+id/packing_scan_main_T_num"
+            android:layout_marginEnd="10dp"
+            android:fastScrollEnabled="false"
+            android:textFilterEnabled="false"
+            android:layout_marginRight="10dp" />
+
+        <ListView
+            android:id="@+id/packing_scan_main_L_menuwrite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/packing_scan_main_T_num"
+            android:layout_alignStart="@+id/packing_scan_main_T_num"
+            android:layout_below="@+id/packing_scan_main_T_num"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="0dp"
+            android:choiceMode="singleChoice"
+            android:visibility="gone"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="0dp" />
+
+        <TextView
+            android:id="@+id/packing_scan_main_T_checkapk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/papayawhip"
+            android:text="@string/packing_scan_main_t_checkapk"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/packing_scan_main_I_scanimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

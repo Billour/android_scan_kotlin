@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_scan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".packing_scan_usezxing">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/zxing_barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:zxing_scanner_layout="@layout/custom_barcode_scanner">
+
+    </com.journeyapps.barcodescanner.DecoratedBarcodeView>
+
+    <Button
+        android:id="@+id/switch_flashlight"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/greenyellow"
+        android:onClick="switchFlashlight"
+        android:text="@string/turn_on_flashlight"
+        android:textColor="@color/indigo"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/auto_button"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/zxing_barcode_scanner"
+        android:layout_alignEnd="@+id/zxing_barcode_scanner"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:onClick="autobtn"
+        android:textColor="@color/zxing_transparent"
+        android:visibility="gone"
+        android:layout_alignRight="@+id/zxing_barcode_scanner" />
+
+</RelativeLayout>

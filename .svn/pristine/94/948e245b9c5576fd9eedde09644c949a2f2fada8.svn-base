@@ -1,0 +1,58 @@
+<resources>
+        <string name="packing_scan_firstuse_t_title">打包区扫瞄系统</string>
+        <string name="packing_scan_firstuse_t_msg" />
+        <string name="packing_scan_firstuse_b_download">下载</string>
+        <string name="packing_scan_main_t_scan">扫描日期：</string>
+        <string name="packing_scan_main_t_date" />
+        <string name="packing_scan_main_b_scan">扫描</string>
+        <string name="packing_scan_main_b_update">上传</string>
+        <string name="m_list">扫描资料</string>
+        <string name="menu_m_list">选单列</string>
+        <string name="packing_scan_main_b_listshow">列表清单</string>
+        <string name="text_t_set">字体设定：</string>
+        <string name="small_b_btn">小</string>
+        <string name="middle_b_btn">中</string>
+        <string name="large_b_btn">大</string>
+        <string name="text_t_title">打包区扫描系统字体调整视窗</string>
+        <string name="text_t_message">请选取字体大小，预设为-大。点选确定后即套用新的设定。 </string>
+        <string name="cancle_b_btn">取消</string>
+        <string name="check_B_btn">确认</string>
+        <string name="packing_scan_main_t_checkapk">正在检查app是否有新版本…</string>
+        <string name="text_T_title2">打包区扫描系统更新视窗</string>
+        <string name="text_T_message2">确定要更新app请点选“更新”按钮，要下次再更新请按“取消”。 </string>
+        <string name="text_T_message2_add">※注意：更新前请确认资料皆已上传再进行更新！ </string>
+        <string name="updateapkbtn_b_btn">更新</string>
+        <string name="text_t_title3">打包区扫描系统选单视窗</string>
+        <string name="lang_b_btn">语言调整</string>
+        <string name="text_b_btn">字体调整</string>
+        <string name="text_t_title4">打包区扫扫描系统语言调整视窗</string>
+        <string name="TW_b_btn">繁体中文</string>
+        <string name="CN_b_btn">简体中文</string>
+        <string name="release_notes_b_btn">更新说明</string>
+        <string name="text_t_title5">打包区扫描系统更新说明</string>
+        <string name="text_t_message3">更新内容如下：</string>
+        <string name="ok_b_btn">确认</string>
+    <string name="scanrepeat_b_btn">连续扫描模式</string>
+    <string name="packing_scan_main_b_scanrepeat">连续</string>
+    <string name="scan_b_btn">一般扫描模式</string>
+    <string name="turn_on_flashlight">开启闪光灯</string>
+    <string name="turn_off_flashlight">关闭闪光灯</string>
+    <string name="auto_flashlight">自动补光</string>
+    <string name="write_b_btn">手动输入模式</string>
+    <string name="packing_scan_main_b_check">确认</string>
+    <string name="packing_scan_main_e_write" />
+    <string name="packing_scan_main_b_writecancel">取消</string>
+    <string name="packing_scan_main_b_writedelete">刪除</string>
+    <string name="write_delete_t_title">手动输入资料删除确认视窗</string>
+    <string name="write_delete_t_message">确定要删除此笔资料请点选“确定”按钮，要取消则按“取消”按钮。</string>
+    <string name="write_delete_cancle_b_btn">取消</string>
+    <string name="write_delete_check_b_btn">确定</string>
+    <string name="packing_scan_main_t_sl">SL</string>
+    <string name="packing_scan_main_t_site">扫描厂别：</string>
+    <string name="updateall_b_btn">重新上传资料</string>
+        <string-array name="packing_scan_firstuse_s_sitelist">
+            <item>台北厂(NJ)</item>
+            <item>云科厂(RP)</item>
+    <item>南俊商贸(SZ)</item>
+        </string-array>
+</resources>

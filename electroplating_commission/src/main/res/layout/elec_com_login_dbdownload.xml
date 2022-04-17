@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Elec_com_login">
+
+    <ImageView
+        android:id="@+id/download_I_logo"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/dbdownload_T_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/download_I_logo"
+        android:background="@color/lavenderblush"
+        android:paddingStart="10dp"
+        android:text="@string/dbdownload_t_title"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_toRightOf="@+id/download_I_logo"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/dbdownload_T_messdge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dbdownload_T_title"
+        android:layout_marginTop="10dp"
+        android:background="@color/honeydew"
+        android:paddingStart="10dp"
+        android:text="@string/dbdownload_t_messdge"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/download_cancle_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/download_check_B_btn"
+        android:layout_alignBottom="@+id/download_check_B_btn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:background="@color/lightcoral"
+        android:onClick="downloadcancelbtn"
+        android:text="@string/cancel_b_btn"
+        android:textSize="26sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp" />
+
+    <Button
+        android:id="@+id/download_check_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dbdownload_T_messdge"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/cornflowerblue"
+        android:onClick="downloadbtn"
+        android:text="@string/download_check_b_btn"
+        android:textSize="26sp"
+        android:layout_marginStart="30dp" />
+
+</RelativeLayout>

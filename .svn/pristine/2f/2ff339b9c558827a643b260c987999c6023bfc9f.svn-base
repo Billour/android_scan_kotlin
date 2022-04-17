@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/linen"
+    tools:context="com.repongroup.inventory.Custodian_main">
+
+    <Spinner
+        android:id="@+id/custodian_main_S_site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/custodian_main_Ｔ_dep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custodian_main_S_site"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:layout_weight="1"
+        android:text="@string/custodian_main_t_dep"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/custodian_main_S_dep"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custodian_main_Ｔ_dep"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:hint="請選擇部門" />
+
+    <TextView
+        android:id="@+id/custodian_main_T_msg"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/custodian_main_S_dep"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="@string/custodian_main_t_msg"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/custodian_main_B_download"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custodian_main_T_msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="@color/paleturquoise"
+        android:onClick="downloadlist"
+        android:text="@string/custodian_main_b_download"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

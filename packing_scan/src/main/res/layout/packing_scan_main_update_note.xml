@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".packing_scan_main">
+
+    <ImageView
+        android:id="@+id/update_note_I_img"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/text_T_title5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/update_note_I_img"
+        android:background="@color/lavenderblush"
+        android:paddingStart="10dp"
+        android:text="@string/text_t_title5"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_toRightOf="@+id/update_note_I_img"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/text_T_message3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_T_title5"
+        android:layout_marginTop="10dp"
+        android:background="@color/honeydew"
+        android:paddingStart="10dp"
+        android:text="@string/text_t_message3"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:paddingLeft="10dp" />
+
+    <ScrollView
+        android:id="@+id/scroll_S_msg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/text_T_message3"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/honeydew"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_T_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/snow"
+                android:paddingStart="10dp"
+                android:text="TextView"
+                android:textColor="@color/dimgray"
+                android:textSize="24sp"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/ok_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll_S_msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/green"
+        android:onClick="okbtn"
+        android:text="@string/ok_b_btn"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+</RelativeLayout>

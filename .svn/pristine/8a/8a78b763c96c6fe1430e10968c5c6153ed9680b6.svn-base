@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="elec_com_login_b_login">登入</string>
+    <string name="elec_com_main_t_scan">扫描日期：</string>
+    <string name="elec_com_main_t_date" />
+    <string name="elec_com_main_b_listshow">列表清单</string>
+    <string name="elec_com_main_t_msg">讯息显示框</string>
+    <string name="elec_com_main__b_update">上传</string>
+    <string name="elec_com_main__b_insert">新增</string>
+    <string name="elec_com_main_t_partnum">料号：</string>
+    <string name="elec_com_main_t_singlenum">单号：</string>
+    <string name="elec_com_main_t_processnum">制程：</string>
+    <string name="elec_com_main_t_num">数量：</string>
+    <string name="elec_com_main_b_check">确定</string>
+    <string name="m_list">扫描资料</string>
+    <string name="elec_com_main_b_fixdata">修改</string>
+    <string name="elec_com_main_b_delete">删除</string>
+    <string name="delcheck_t_title">电镀委外删除资料确认视窗</string>
+    <string name="delcheck_t_message">删除资料的动作是不可复原的，您确定要删除此笔资料吗?</string>
+    <string name="cancel_b_btn">取消</string>
+    <string name="yesbtn_b_btn">确定</string>
+    <string name="elec_com_login_t_checkapk">正在检查app是否有新版本...</string>
+    <string name="apkupdate_t_title">电镀委外更新视窗</string>
+    <string name="apkupdate_t_message">确定要更新app请点选“更新”按钮，要下次再更新请按“取消”。 </string>
+    <string name="apkupdate_t_message_add">※注意：更新前请确认资料皆已上传再进行更新！ </string>
+    <string name="apkupdate_check_b_btn">更新</string>
+    <string name="choice_t_title">电镀委外选单视窗</string>
+    <string name="choice_lang_b_btn">语言调整</string>
+    <string name="choice_text_b_btn">字体调整</string>
+    <string name="choice_release_notes_b_btn">更新说明</string>
+    <string name="choice_webview_b_btn">浏览网页(web功能展示)</string>
+    <string name="menu_m_list">选单列</string>
+    <string name="update_t_title">电镀委外更新说明</string>
+    <string name="update_t_message">更新内容如下：</string>
+    <string name="updateok_B_btn">确认</string>
+    <string name="choice_out_b_btn">出厂</string>
+    <string name="choice_in_b_btn">入厂</string>
+    <string name="elec_com_main_t_scantype">扫描类型：</string>
+    <string name="elec_com_main_t_scantype_choice">出厂</string>
+    <string name="elec_com_main_t_cage">笼数：</string>
+    <string name="elec_com_main_t_cage2">1 / 1</string>
+    <string name="elec_com_main_t_style">状态：</string>
+    <string name="elec_com_main_t_style2">出厂</string>
+    <string name="choice_download_b_btn">下载资料</string>
+    <string name="dbdownload_t_title">电镀委外下载视窗</string>
+    <string name="dbdownload_t_messdge">确定要重新下载资料，请按“确定”键，取消下载请按取消。 </string>
+    <string name="download_check_b_btn">下载</string>
+    <string name="elec_com_main_t_insidescan">厂内</string>
+    <string name="lang_t_title">电镀委外语言调整视窗</string>
+    <string name="lang_TW_b_btn">繁体中文</string>
+    <string name="lang_CN_b_btn">简体中文</string>
+    <string name="text_t_title">电镀委外字体调整视窗</string>
+    <string name="text_t_message">请选取字体大小，预设为-大。点选确定后即套用新的设定。 </string>
+    <string name="text_small_b_btn">小</string>
+    <string name="text_middle_b_btn">中</string>
+    <string name="text_large_b_btn">大</string>
+    <string name="text_t_set">字体设定：</string>
+    <string name="text_cancle_b_btn">取消</string>
+    <string name="text_check_b_btn">确定</string>
+    <string-array name="elec_com_login_s_site">
+            <item>云科厂(RP)</item>
+            <item>台北厂(NJ)</item>
+    </string-array>
+    <string-array name="elec_com_login_s_style">
+            <item>委外</item>
+            <item>厂内</item>
+    </string-array>
+    <string-array name="elec_com_main_s_scantype">
+            <item>出厂</item>
+            <item>入厂</item>
+    </string-array>
+</resources>

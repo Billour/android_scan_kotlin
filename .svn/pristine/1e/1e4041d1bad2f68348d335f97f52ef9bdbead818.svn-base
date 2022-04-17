@@ -1,0 +1,58 @@
+<resources>
+    <string name="packing_scan_firstuse_t_title">打包區掃瞄系統</string>
+    <string name="packing_scan_firstuse_t_msg" />
+    <string name="packing_scan_firstuse_b_download">下載</string>
+    <string name="packing_scan_main_t_scan">掃描日期：</string>
+    <string name="packing_scan_main_t_date" />
+    <string name="packing_scan_main_b_scan">掃描</string>
+    <string name="packing_scan_main_b_update">上傳</string>
+    <string name="m_list">掃描資料</string>
+    <string name="menu_m_list">選單列</string>
+    <string name="packing_scan_main_b_listshow">列表清單</string>
+    <string name="text_t_set">字體設定：</string>
+    <string name="small_b_btn">小</string>
+    <string name="middle_b_btn">中</string>
+    <string name="large_b_btn">大</string>
+    <string name="text_t_title">打包區掃描系統字體調整視窗</string>
+    <string name="text_t_message">請選取字體大小，預設為-大。點選確定後即套用新的設定。</string>
+    <string name="cancle_b_btn">取消</string>
+    <string name="check_B_btn">確認</string>
+    <string name="packing_scan_main_t_checkapk">正在檢查app是否有新版本…</string>
+    <string name="text_T_title2">打包區掃描系統更新視窗</string>
+    <string name="text_T_message2">確定要更新app請點選“更新”按鈕，要下次再更新請按“取消”。</string>
+    <string name="text_T_message2_add">※注意：更新前請確認資料皆已上傳再進行更新！</string>
+    <string name="updateapkbtn_b_btn">更新</string>
+    <string name="text_t_title3">打包區掃描系統選單視窗</string>
+    <string name="lang_b_btn">語言調整</string>
+    <string name="text_b_btn">字體調整</string>
+    <string name="text_t_title4">打包區掃掃描系統語言調整視窗</string>
+    <string name="TW_b_btn">繁體中文</string>
+    <string name="CN_b_btn">簡體中文</string>
+    <string name="release_notes_b_btn">更新說明</string>
+    <string name="text_t_title5">打包區掃描系統更新說明</string>
+    <string name="text_t_message3">更新內容如下：</string>
+    <string name="ok_b_btn">確認</string>
+    <string name="scanrepeat_b_btn">連續掃描模式</string>
+    <string name="packing_scan_main_b_scanrepeat">連續</string>
+    <string name="scan_b_btn">一般掃描模式</string>
+    <string name="turn_on_flashlight">開啟閃光燈</string>
+    <string name="turn_off_flashlight">關閉閃光燈</string>
+    <string name="auto_flashlight">自動補光</string>
+    <string name="write_b_btn">手動輸入模式</string>
+    <string name="packing_scan_main_b_check">確認</string>
+    <string name="packing_scan_main_e_write" />
+    <string name="packing_scan_main_b_writecancel">取消</string>
+    <string name="packing_scan_main_b_writedelete">刪除</string>
+    <string name="write_delete_t_title">手動輸入資料刪除確認視窗</string>
+    <string name="write_delete_t_message">確定要刪除此筆資料請點選“確定”按鈕，要取消則按“取消”按鈕。</string>
+    <string name="write_delete_cancle_b_btn">取消</string>
+    <string name="write_delete_check_b_btn">確定</string>
+    <string name="packing_scan_main_t_sl">SL</string>
+    <string name="packing_scan_main_t_site">掃描廠別：</string>
+    <string name="updateall_b_btn">重新上傳資料</string>
+    <string-array name="packing_scan_firstuse_s_sitelist">
+        <item>台北廠(NJ)</item>
+        <item>雲科廠(RP)</item>
+        <item>南俊商貿(SZ)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Elec_com_login">
+
+    <ImageView
+        android:id="@+id/choice_I_logo"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/choice_T_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/choice_I_logo"
+        android:background="@color/lavenderblush"
+        android:paddingStart="10dp"
+        android:text="@string/choice_t_title"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_toRightOf="@+id/choice_I_logo"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/choice_lang_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/choice_T_title"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="choice_langbtn"
+        android:text="@string/choice_lang_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/choice_text_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/choice_lang_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="choice_textbtn"
+        android:text="@string/choice_text_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/choice_download_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/choice_text_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="choice_downloadbtn"
+        android:text="@string/choice_download_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/choice_release_notes_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/choice_download_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="choice_release_notesbtn"
+        android:text="@string/choice_release_notes_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/choice_webview_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/choice_release_notes_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="choice_webviewbtn"
+        android:text="@string/choice_webview_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/choice_out_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/choice_release_notes_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="choice_webviewbtn"
+        android:text="@string/choice_out_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/choice_in_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/choice_release_notes_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="choice_webviewbtn"
+        android:text="@string/choice_in_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

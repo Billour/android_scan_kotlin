@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/honeydew"
+    android:orientation="vertical"
+    tools:context=".Elec_com_webview">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toStartOf="@+id/progressnum"
+        android:indeterminate="false"
+        android:maxHeight="10dp"
+        android:minHeight="10dp"
+        android:progressDrawable="@drawable/progressbar_preview"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/progressnum" />
+
+    <TextView
+        android:id="@+id/progressnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="0%"
+        android:textColor="@color/sienna"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:src="@drawable/logo_slogan"
+        tools:ignore="ContentDescription"
+        android:layout_alignLeft="@+id/imageView3" />
+
+    <WebView
+        android:id="@+id/mywebview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/progressBar"
+        android:visibility="gone" />
+
+</RelativeLayout>

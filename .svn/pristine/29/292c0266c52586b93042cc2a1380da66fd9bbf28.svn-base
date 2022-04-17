@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config=":repon_android"><source path="D:\Android-studio\Repon_Kotlin\repon_android\build\intermediates\packagedAssets\debug"/></dataSet><dataSet config="main"><source path="D:\Android-studio\Repon_Kotlin\electroplating_commission\src\main\assets"/><source path="D:\Android-studio\Repon_Kotlin\electroplating_commission\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\Android-studio\Repon_Kotlin\electroplating_commission\src\debug\assets"/></dataSet></merger>

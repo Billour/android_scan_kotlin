@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Repon_Kotlin.iml" filepath="$PROJECT_DIR$/Repon_Kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/electroplating_commission/electroplating_commission.iml" filepath="$PROJECT_DIR$/electroplating_commission/electroplating_commission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory/inventory.iml" filepath="$PROJECT_DIR$/inventory/inventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packing_scan/packing_scan.iml" filepath="$PROJECT_DIR$/packing_scan/packing_scan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repon_00/repon_00.iml" filepath="$PROJECT_DIR$/repon_00/repon_00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repon_android/repon_android.iml" filepath="$PROJECT_DIR$/repon_android/repon_android.iml" />
+    </modules>
+  </component>
+</project>

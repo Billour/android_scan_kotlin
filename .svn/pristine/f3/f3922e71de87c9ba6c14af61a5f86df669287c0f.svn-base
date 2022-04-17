@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="custodian_main_t_dep">盤點部門</string>
+    <string name="custodian_main_b_download">下載</string>
+    <string name="custodian_list_t_dep"></string>
+    <string name="custodian_inventory_e_fixnum" />
+    <string name="custodian_list_b_inventory">盤點</string>
+    <string name="m_list">列表資料</string>
+    <string name="custodian_main_t_msg" />
+    <string name="custodian_list_B_update">上傳</string>
+    <string name="custodian_inventory_query">盤點資料查詢</string>
+    <string name="inventory_query_e_fixnum" />
+    <string-array name="custodian_main_s_sitelist">
+        <item>台北廠(NJ)</item>
+        <item>雲科廠(RP)</item>
+    </string-array>
+    <string-array name="custodian_main_s_dep">
+        <item>請選擇部門</item>
+    </string-array>
+</resources>

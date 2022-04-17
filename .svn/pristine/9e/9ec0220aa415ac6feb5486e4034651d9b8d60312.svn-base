@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".packing_scan_main">
+
+    <ImageView
+        android:id="@+id/apkupdate_I_img"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/text_T_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/apkupdate_I_img"
+        android:background="@color/lavenderblush"
+        android:paddingStart="10dp"
+        android:text="@string/text_T_title2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_toRightOf="@+id/apkupdate_I_img"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/text_T_message2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_T_title2"
+        android:layout_marginTop="10dp"
+        android:background="@color/honeydew"
+        android:paddingStart="10dp"
+        android:text="@string/text_T_message2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/updateapkbtn_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_T_message2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/apkupdate_I_img"
+        android:background="@color/cornflowerblue"
+        android:onClick="updateapkbtn"
+        android:text="@string/updateapkbtn_b_btn"
+        android:textSize="26sp"
+        android:layout_toRightOf="@+id/apkupdate_I_img" />
+
+    <Button
+        android:id="@+id/cancle_B_btn2"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/updateapkbtn_B_btn"
+        android:layout_alignBottom="@+id/updateapkbtn_B_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:background="@color/lightcoral"
+        android:onClick="canclebtn2"
+        android:text="@string/cancle_b_btn"
+        android:textSize="26sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+</RelativeLayout>

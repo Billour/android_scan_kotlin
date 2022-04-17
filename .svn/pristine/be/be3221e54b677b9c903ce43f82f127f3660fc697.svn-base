@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".packing_scan_main">
+
+    <ImageView
+        android:id="@+id/menu_I_img"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/text_T_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/menu_I_img"
+        android:background="@color/lavenderblush"
+        android:paddingStart="10dp"
+        android:text="@string/text_t_title"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_toRightOf="@+id/menu_I_img"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/text_T_message2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lang_B_btn"
+        android:layout_below="@+id/text_T_title"
+        android:layout_marginTop="10dp"
+        android:background="@color/honeydew"
+        android:paddingStart="10dp"
+        android:text="@string/text_t_message"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_alignLeft="@+id/lang_B_btn"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/lang_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_T_message2"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightcyan"
+        android:onClick="smallbtn"
+        android:text="@string/small_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/middle_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lang_B_btn"
+        android:layout_alignBottom="@+id/lang_B_btn"
+        android:layout_centerHorizontal="true"
+        android:background="@color/lightcyan"
+        android:onClick="middlebtn"
+        android:text="@string/middle_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/large_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/middle_B_btn"
+        android:layout_alignBottom="@+id/middle_B_btn"
+        android:layout_alignEnd="@+id/text_T_title"
+        android:background="@color/lightcyan"
+        android:onClick="largebtn"
+        android:text="@string/large_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignRight="@+id/text_T_title" />
+
+    <TextView
+        android:id="@+id/text_T_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lang_B_btn"
+        android:layout_below="@+id/lang_B_btn"
+        android:layout_marginTop="10dp"
+        android:background="@color/cornsilk"
+        android:paddingStart="10dp"
+        android:text="@string/text_t_set"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/lang_B_btn"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/cancle_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/updateapkbtn_B_btn"
+        android:layout_alignBottom="@+id/updateapkbtn_B_btn"
+        android:layout_toEndOf="@+id/menu_I_img"
+        android:background="@color/lightcoral"
+        android:onClick="canclebtn"
+        android:text="@string/cancle_b_btn"
+        android:textSize="26sp"
+        android:layout_toRightOf="@+id/menu_I_img" />
+
+    <Button
+        android:id="@+id/updateapkbtn_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/text_T_set"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/cornflowerblue"
+        android:onClick="checkbtn"
+        android:text="@string/check_B_btn"
+        android:textSize="26sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+</RelativeLayout>

@@ -1,0 +1,357 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:2:1-67:12
+MERGED from [:repon_android] D:\Android-studio\Repon_Kotlin\repon_android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\b05f7cd0297255efeb1456f9dd275c64\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3fbe457aeb5aeae11404432a6da87fd4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\02344d5fed78bce4190f36a4cc5ffcaf\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\6f673d5b7ed426e3cff29ed1694393e6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\720c10e49b80572b28b74f1e5246d7ef\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5cc2e7509652625ff6aaad7da5ebc024\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\4e495baafe9affac59cbfd016818fbd5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cdd5601bcd0014d61ed4e1dadb62bb0e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3e3c94347fecdb2bd0b8780973843ab2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e084d62e123c3c2e430f668d3c07788e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3121779f97b86ba24b81f651742a3c3e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a3c18e54f7749fbc7309f5bd5a1e6469\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\53020299d7828724d9da24b0d1ef4948\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:gridlayout-v7:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\97a9c8a8b870dc92f1e5f6aaca9b6b0a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.1.aar\a6a233054ab42dff8d105ec9603e84ac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\94a4413171b22c5d614b6420e7c492cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\944c2b37cda2e5fe5b88eacd62a4d0ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8de6a3197ef585c44e93a774ad62fff4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\54fc785f9e2f157367994c34bf4516ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e3dfc62517b81f199465fe38f8da10da\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b4fab795d09b5f068c3cc3b201cd4938\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ba93c6abed5f1b40e65305b99214553f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6f535a41a1c11c4cbc42543c81751638\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\93d23196a71040d074ce222ad5a45bd8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\a3418cfdbecc55db3147fc2557f46554\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.core:runtime:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\96770dfa841abf5e3ce216b49cd87c85\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:2:1-67:12
+	package
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+		INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:2:1-67:12
+		INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:2:1-67:12
+		INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:6:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:21:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:6:22-62
+uses-feature#android.hardware.camera2
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:7:5-61
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:7:19-58
+uses-feature#android.hardware.autofocus
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:8:5-63
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:8:19-60
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:11:5-83
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:11:22-80
+uses-permission#com.repongroup.packing_scan.providers.WRITE
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:12:5-83
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:12:22-80
+uses-permission#com.repongroup.packing_scan.providers.READ
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:13:5-82
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:13:22-79
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:15:5-79
+MERGED from [:repon_android] D:\Android-studio\Repon_Kotlin\repon_android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-79
+MERGED from [:repon_android] D:\Android-studio\Repon_Kotlin\repon_android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:18:22-77
+application
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:20:5-65:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:45:5-53:19
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\6f673d5b7ed426e3cff29ed1694393e6\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\6f673d5b7ed426e3cff29ed1694393e6\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\720c10e49b80572b28b74f1e5246d7ef\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\720c10e49b80572b28b74f1e5246d7ef\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5cc2e7509652625ff6aaad7da5ebc024\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5cc2e7509652625ff6aaad7da5ebc024\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\4e495baafe9affac59cbfd016818fbd5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\4e495baafe9affac59cbfd016818fbd5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cdd5601bcd0014d61ed4e1dadb62bb0e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cdd5601bcd0014d61ed4e1dadb62bb0e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e084d62e123c3c2e430f668d3c07788e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e084d62e123c3c2e430f668d3c07788e\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\a3418cfdbecc55db3147fc2557f46554\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\a3418cfdbecc55db3147fc2557f46554\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:23:9-41
+	android:roundIcon
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:24:9-54
+	android:icon
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:26:9-40
+activity#com.repongroup.packing_scan.packing_scan_main
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:27:9-35:20
+	android:screenOrientation
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:28:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:33:27-74
+activity#com.repongroup.packing_scan.packing_scan_usezxing
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:37:9-42:63
+	android:screenOrientation
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:39:13-49
+	android:stateNotNeeded
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:40:13-42
+	android:windowSoftInputMode
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:42:13-60
+	android:theme
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:41:13-54
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:38:13-50
+activity#com.repongroup.repon_android.Repon_list
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:44:9-46:52
+	android:screenOrientation
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:45:13-67
+provider#com.repongroup.packing_scan.providers.Packing_scanContentProvider
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:48:9-51:39
+	android:authorities
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:50:13-100
+	android:exported
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:51:13-36
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:49:13-66
+provider#android.support.v4.content.FileProvider
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:53:9-63:20
+	android:grantUriPermissions
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:57:13-47
+	android:authorities
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:55:13-85
+	android:exported
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:54:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:59:13-61:54
+	android:resource
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:61:17-51
+	android:name
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml:60:17-67
+uses-sdk
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+MERGED from [:repon_android] D:\Android-studio\Repon_Kotlin\repon_android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:repon_android] D:\Android-studio\Repon_Kotlin\repon_android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\b05f7cd0297255efeb1456f9dd275c64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\b05f7cd0297255efeb1456f9dd275c64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3fbe457aeb5aeae11404432a6da87fd4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3fbe457aeb5aeae11404432a6da87fd4\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:19:5-43
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\02344d5fed78bce4190f36a4cc5ffcaf\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\02344d5fed78bce4190f36a4cc5ffcaf\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\6f673d5b7ed426e3cff29ed1694393e6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\6f673d5b7ed426e3cff29ed1694393e6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\720c10e49b80572b28b74f1e5246d7ef\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\720c10e49b80572b28b74f1e5246d7ef\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5cc2e7509652625ff6aaad7da5ebc024\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5cc2e7509652625ff6aaad7da5ebc024\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\4e495baafe9affac59cbfd016818fbd5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\4e495baafe9affac59cbfd016818fbd5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cdd5601bcd0014d61ed4e1dadb62bb0e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cdd5601bcd0014d61ed4e1dadb62bb0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3e3c94347fecdb2bd0b8780973843ab2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3e3c94347fecdb2bd0b8780973843ab2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e084d62e123c3c2e430f668d3c07788e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e084d62e123c3c2e430f668d3c07788e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3121779f97b86ba24b81f651742a3c3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3121779f97b86ba24b81f651742a3c3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a3c18e54f7749fbc7309f5bd5a1e6469\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a3c18e54f7749fbc7309f5bd5a1e6469\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\53020299d7828724d9da24b0d1ef4948\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\53020299d7828724d9da24b0d1ef4948\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\97a9c8a8b870dc92f1e5f6aaca9b6b0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\97a9c8a8b870dc92f1e5f6aaca9b6b0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.1.aar\a6a233054ab42dff8d105ec9603e84ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.1.aar\a6a233054ab42dff8d105ec9603e84ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\94a4413171b22c5d614b6420e7c492cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\94a4413171b22c5d614b6420e7c492cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\944c2b37cda2e5fe5b88eacd62a4d0ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\944c2b37cda2e5fe5b88eacd62a4d0ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8de6a3197ef585c44e93a774ad62fff4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8de6a3197ef585c44e93a774ad62fff4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\54fc785f9e2f157367994c34bf4516ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\54fc785f9e2f157367994c34bf4516ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e3dfc62517b81f199465fe38f8da10da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e3dfc62517b81f199465fe38f8da10da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b4fab795d09b5f068c3cc3b201cd4938\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b4fab795d09b5f068c3cc3b201cd4938\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ba93c6abed5f1b40e65305b99214553f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ba93c6abed5f1b40e65305b99214553f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6f535a41a1c11c4cbc42543c81751638\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6f535a41a1c11c4cbc42543c81751638\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\93d23196a71040d074ce222ad5a45bd8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\93d23196a71040d074ce222ad5a45bd8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\a3418cfdbecc55db3147fc2557f46554\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\a3418cfdbecc55db3147fc2557f46554\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\96770dfa841abf5e3ce216b49cd87c85\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\96770dfa841abf5e3ce216b49cd87c85\AndroidManifest.xml:20:5-44
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\02344d5fed78bce4190f36a4cc5ffcaf\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+		INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+		ADDED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+		INJECTED from D:\Android-studio\Repon_Kotlin\packing_scan\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\90647042e961cb76d02ed23b6021aa24\AndroidManifest.xml:47:13-74
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cbdfbd5a80a49775b34cbd757d795ea7\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\1b97da74b7c560939106d7e2e95ed8de\AndroidManifest.xml:30:13-65
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5cc2e7509652625ff6aaad7da5ebc024\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5cc2e7509652625ff6aaad7da5ebc024\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5cc2e7509652625ff6aaad7da5ebc024\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5cc2e7509652625ff6aaad7da5ebc024\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cdd5601bcd0014d61ed4e1dadb62bb0e\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cdd5601bcd0014d61ed4e1dadb62bb0e\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] D:\Android-studio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cdd5601bcd0014d61ed4e1dadb62bb0e\AndroidManifest.xml:24:13-58

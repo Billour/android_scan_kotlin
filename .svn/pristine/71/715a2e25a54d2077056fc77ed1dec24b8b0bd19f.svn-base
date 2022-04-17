@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Custodian_main_menu_update"
+        android:icon="@android:drawable/stat_sys_download"
+        android:title="更新盤點資料"
+        app:showAsAction="ifRoom" />
+</menu>

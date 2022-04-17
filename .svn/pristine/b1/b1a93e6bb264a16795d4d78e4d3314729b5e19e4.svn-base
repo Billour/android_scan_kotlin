@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".packing_scan_main">
+
+    <ImageView
+        android:id="@+id/choice_I_img"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/text_T_title3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/choice_I_img"
+        android:background="@color/lavenderblush"
+        android:paddingStart="10dp"
+        android:text="@string/text_t_title3"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_toRightOf="@+id/choice_I_img"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/lang_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_T_title3"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="langbtn"
+        android:text="@string/lang_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/text_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lang_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="textbtn"
+        android:text="@string/text_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/scanrepeat_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="scanrepeatbtn"
+        android:text="@string/scanrepeat_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/scan_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="scanbtn"
+        android:text="@string/scan_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/write_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/scanrepeat_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="writebtn"
+        android:text="@string/write_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/release_notes_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/write_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="release_notesbtn"
+        android:text="@string/release_notes_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/updateall_B_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/release_notes_B_btn"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgreen"
+        android:onClick="updateallbtn"
+        android:text="@string/updateall_b_btn"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+</RelativeLayout>
