@@ -17,9 +17,9 @@ class DBConnector {
         private val timeoutConnection = 3000 //設定超時三秒
         private val timeoutSocket = 5000 //設定超時五秒
         var code = 0 //接收伺服器回傳更新值
-        val connect_ip = "http://170.168.110.49:8888/WMS/asrs-j/insertJ.aspx" //連公司內網上傳掃描資料
-        val apktxt_ip = "http://170.168.110.49:8888/AndroidVersion/packing_scan/" //存放apktxt網址
-        val apk_ip = "http://170.168.110.49:8888/AndroidVersion/packing_scan/packing_scan.zip" //存放apk網址
+        val connect_ip = "http://100.100.100.49:8888/WMS/asrs-j/insertJ.aspx" //連公司內網上傳掃描資料
+        val apktxt_ip = "http://100.100.100.49:8888/AndroidVersion/packing_scan/" //存放apktxt網址
+        val apk_ip = "http://100.100.100.49:8888/AndroidVersion/packing_scan/packing_scan.zip" //存放apk網址
         val File_NAME = "packing_scan.zip"
         lateinit var file: File //記錄下載完檔案解壓縮後的路徑及名稱
 
