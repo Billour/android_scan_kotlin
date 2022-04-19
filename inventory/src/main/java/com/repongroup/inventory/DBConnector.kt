@@ -16,10 +16,10 @@ class DBConnector {
         private val timeoutConnection: Int = 3000 //設定超時三秒
         private val timeoutSocket: Int = 5000 //設定超時五秒
         var code: Int = 0 //接收伺服器回傳更新值
-        private val myconnect_ip: String = "http://alice377.com/admin/android_mysql_connect/" //自己手機測試
-        val depconnect_ip: String = "http://170.168.110.49:8888/getDept.aspx" //連公司內網下載部門資料
-        val connect_ip: String = "http://170.168.110.49:8888/getFixMst.aspx" //連公司內網下載盤點資料
-        val updateconnect_ip: String = "http://170.168.110.49:8888/updateFixMst.aspx" //連公司內網上傳盤點資料　?qty=1&site=NJ&
+        private val myconnect_ip: String = "http://xxx.com/admin/android_mysql_connect/" //自己手機測試
+        val depconnect_ip: String = "http://100.100.110.49:8888/getDept.aspx" //連公司內網下載部門資料
+        val connect_ip: String = "http://100.100.110.49:8888/getFixMst.aspx" //連公司內網下載盤點資料
+        val updateconnect_ip: String = "http://100.100.110.49:8888/updateFixMst.aspx" //連公司內網上傳盤點資料　?qty=1&site=NJ&
 
         //連公司內網抓資料
         fun executeQuery(s: String): String{
